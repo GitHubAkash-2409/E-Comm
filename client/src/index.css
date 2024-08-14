@@ -2,16 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  font-family: 'Inter', system-ui, 'Avenir', 'Helvetica', 'Arial', sans-serif;
+/* :root {
   
+} */
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, 'Avenir', 'Helvetica', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Assuming you are using Tailwind CSS */
+  @apply bg-slate-100;
 }
 
-/* body {
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 320px;
-  min-height: 100vh;
-} */
+code {
+  font-family: 'source-code-pro', Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
